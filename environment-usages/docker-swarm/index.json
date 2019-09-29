@@ -1,10 +1,10 @@
 {
   "title": "Docker Swarm",
-  "description": "Two-node Docker cluster designed for teaching Swarm",
+  "description": "Rój dwóch nód dockera",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Layout",
+        "title": "Wprowadzenie",
         "text": "step1.md"
       },
       {

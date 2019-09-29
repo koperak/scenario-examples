@@ -8,9 +8,13 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Multiple Nodes",
+        "title": "Step 2 - Usługi",
         "text": "step2.md"
       }
+      {
+        "title": "Step 3 - Akualizacje",
+        "text": "step3.md"
+      }      
     ],
     "finish": {
       "text": "finish.md"

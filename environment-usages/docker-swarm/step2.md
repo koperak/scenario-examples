@@ -1,4 +1,10 @@
-Both nodes are able to communicate with each other. This enables you to connect the two nodes together and create a Swarm Cluster.
+Utwórz sieć
+`docker network create -d overlay swarmnet`{{execute T1}}
 
-For example, the IP of the master is `[[HOST_IP]]` and the second is `[[HOST2_IP]]`.
+Uwórz usługę 'http' 
 
+`docker service create --name http --network swarmnet --replicas 2 -p 80:80 katacoda/docker-http-server`{{execute T1}}
+
+
+Sprawdź
+`docker service ls`{{execute T1}}
